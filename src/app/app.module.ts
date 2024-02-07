@@ -5,15 +5,13 @@ import { AppComponent } from './app.component';
 
 import { HeroesComponent } from './heroes/heroes.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
-    HeroesComponent
+    HeroesComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
